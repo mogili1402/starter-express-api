@@ -18,6 +18,7 @@
   "homepage": "https://github.com/cyclic-software/starter-express-api#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "mongoose": "^6.10.5"
+    "mongoose": "^6.10.5",
+    "mongodb":"^5.1.0"
   }
 }
