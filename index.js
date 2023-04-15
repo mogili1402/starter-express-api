@@ -28,7 +28,10 @@ async function main() {
 }
 
 main()
-  .then(console.log)
+  .then(()=>{
+app.listen(process.env.PORT || 3000)
+}
+)
   .catch(console.error)
   .finally(() => client.close());
-app.listen(process.env.PORT || 3000)
+
